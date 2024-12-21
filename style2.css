@@ -1,6 +1,11 @@
 a {
     text-decoration: none;
     color: white;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.logo{
+    width: 20%;
 }
 
 body {
