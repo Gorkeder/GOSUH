@@ -1,9 +1,13 @@
+
+const rot = document.getElementById("rot");
+const hid = document.getElementById("hid");
+
 if(window.innerHeight > window.innerWidth){
     if(window.innerWidth < 1000){
         alert("Пожалуйста переверните устройство в вертикальное положение или расширьте окно сайта!");
-        
+        rot.style.display = "block";
     }
-    const ad = window.innerWidth;
+    const ad = window.innerWidth;+
     console.log(ad)
 }
 
@@ -54,4 +58,15 @@ $(document).ready(function(){
 		minSlides: 1,
 		maxSlides: 1
 	});
+});
+
+
+
+
+
+
+hid.addEventListener("click", function () {
+    rot.style.display = "none";
+    
+
 });

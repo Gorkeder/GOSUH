@@ -4,6 +4,32 @@ a {
     vertical-align: -webkit-baseline-middle;
 }
 
+.rot{
+    height: 100vh;
+    position: fixed;
+    width: 100vw;
+    background-color: rgb(63, 63, 63);
+    z-index: 9999999;
+    display: none; 
+}
+
+.tx{
+    margin-top: 50%;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: Inter;
+}
+
+.hid{
+    margin-left: 37.5%;
+    width: 25%;
+    height: auto;
+    font-family: Inter;
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
