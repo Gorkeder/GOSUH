@@ -31,6 +31,7 @@ a {
 
 
 body {
+    scroll-behavior:smooth;
     margin: 0;
     padding: 0;
     font-family: 'Courier New', Courier, monospace;
